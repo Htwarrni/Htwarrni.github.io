@@ -1,0 +1,54 @@
+h1 {
+
+    border: 1px solid black;
+    text-align: center;
+    background-color: #FFFF00;
+  }
+  h2 {
+  border: 1px solid black;
+    text-align: center;
+    background-color: #FFF8DC;
+  }
+  #input-container {
+  
+            text-align: center;
+            }
+   input {
+   border: 1px solid black;
+     text-align: center;
+     background-color: #E0FFFF;
+  
+   }
+  .result-box1 {
+  
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    text-color: white;
+    background-color: #0000FF;
+  }
+  
+  .result-box2 {
+  
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #00FF00;
+  }
+  
+  .result-box3 {
+  
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #FF00FF;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .result-box {
+      width: 100%;
+    }
+  }
